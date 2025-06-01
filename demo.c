@@ -35,6 +35,7 @@ int main()
             break;
         }
     }while(n!=6);
+    printf("end of the progrma\n");
     return 0;
 }
 int add_emp(emp a[100],int n)
@@ -65,4 +66,3 @@ int upd_emp(emp a[100],int n)
         scanf("%d",&a->id);
 
 }
-
