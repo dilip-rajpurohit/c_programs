@@ -18,7 +18,7 @@ int count(int at,int s,int t,int ot)
         printf("enter the distance of apple %d fall\n",i+1);
         scanf("%d",&d);
         d=at+d;
-        if(d>=s && d<=t && d>at)
+        if(d>=s && d<=t)
         {
             a++;
         }
@@ -28,7 +28,7 @@ int count(int at,int s,int t,int ot)
         printf("enter the distance of orange %d fall\n",i+1);
         scanf("%d",&d);
         d=ot+d;
-        if(d>=s && d<=t && d<ot)
+        if(d>=s && d<=t)
         {
             o++;
         }

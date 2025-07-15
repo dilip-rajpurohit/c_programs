@@ -65,6 +65,6 @@ int instruction(char bread_type, char mode, int loaf_size)
     }
     break;
     default:
-        printf("invalid input\n");
+        printf("invalid bread-type\n");
     }
 }
