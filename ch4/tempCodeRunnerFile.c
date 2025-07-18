@@ -1,0 +1,2 @@
+int sort();
+int display();
